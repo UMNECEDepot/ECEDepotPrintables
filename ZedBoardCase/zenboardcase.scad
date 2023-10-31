@@ -5,6 +5,9 @@ Designed for University of Minnesota, Department of Electrical and Computer Engi
 By Dave Ballard, 2023
 Distributed under CC 4.0 (Attribution) - Distribute and modify freely, but please mention us in all distributions and derivative works
 
+Inspired in part by Diligent / Xilinx Basys 3 Artix-7 FPGA Trainer Board Slim Case by Yoni
+https://www.printables.com/model/274722-diligent-xilinx-basys-3-artix-7-fpga-trainer-board
+
 This is fully parametric and should work for other boards where access to ports, controls, displays, etc from the side and top is necessary (as long as all you need are rectangular cutout for access)
 */
 
@@ -47,7 +50,7 @@ standoff_diameter = hole_diameter + thickness;
 standoff_height = 5;
 standoff_margin = 1.6;  //This is the thickness of the circuit board itself
 screw_hole_diameter = 2;
-screw_well_diameter = 4.2; //thick enough for sheet metal screw
+screw_well_diameter = 4.2; //thick enough for sheet metal screw  
 
 //Special cutous that extend below the board
 //sides: 0 - bottom, 1 - left, 2 - right, 3 - top
